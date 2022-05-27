@@ -22,11 +22,16 @@ export class BodyComponent implements OnInit {
   selectFirstCurr(event: any) {
     this.firstCurrency = event.target.value
     this.getCurrencies()
+    this.secondInputValue = ''
+    this.firstInputValue = ''
+
   }
 
   selectSecondCurr(event: any) {
     this.secondCurrency = event.target.value
     this.getCurrencies()
+    this.secondInputValue = ''
+    this.firstInputValue = ''
   }
 
 
