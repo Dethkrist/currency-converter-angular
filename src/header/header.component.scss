@@ -1,0 +1,21 @@
+.container {
+  padding: 10px 50px;
+  background: rgba(250, 250, 250, 0.3);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.rates {
+  display: flex;
+}
+
+.title {
+  color: #222121;
+  font-weight: 500;
+}
+
+.sub-title {
+  margin: 0px 15px;
+  color: #36343d;
+}

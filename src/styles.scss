@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway";
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}

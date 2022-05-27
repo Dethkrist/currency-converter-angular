@@ -1,0 +1,33 @@
+<div class="body-container">
+  <div class="input-form">
+    <input 
+      placeholder="Введите значение" 
+      name="firstValue" 
+      type="text" 
+      class="input-field"
+      [(ngModel)]="firstInputValue" 
+      (ngModelChange)="firstInput()">
+
+    <select (change)="selectFirstCurr($event)" class="select">
+      <option selected value="USD">USD</option>
+      <option value="EUR">EUR</option>
+      <option value="UAH">UAH</option>
+    </select>
+  </div>
+
+  <div class="input-form">
+    <input 
+      placeholder="Введите значение" 
+      ame="secondValue" 
+      type="text" 
+      class="input-field"
+      [(ngModel)]="secondInputValue" 
+      (ngModelChange)="secondInput()">
+
+    <select (change)="selectSecondCurr($event)" class="select">
+      <option value="USD">USD</option>
+      <option value="EUR">EUR</option>
+      <option selected value="UAH">UAH</option>
+    </select>
+  </div>
+</div>
